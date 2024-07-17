@@ -5,7 +5,7 @@
 // gdud2Z4Id5R9oq/C/mvqENBTLuZyRNIWl11UQwYkc8XGUGE8FBL75f46g1MwWT1Do+F7Y1/JD6j9bD8evr57ahWHzwW0nr6gigtm3BWKfLLTQ0Zzst8UYUnClNG5dJJjW7FKbMz1h+VTrcaKASD39pFi/jYXZiUgHOHewXFxAajPqQnvRDg3OTQ2nVZcFCGaxve6KO4PUEip6TFrhx9xKCIz7y5XSeS3A7MBiZpewMY6mQcGO9f/GQmNUNrAPUiwwHfCsnwmdbEfuKinOIwcX+sGtEkOHYCsCDUZdxKo69vkE+W8UzkSV6K5D94lL4XXOAuteJvunOa2oCDXwLcmAQ==
 // Author of the program Opokin Dmitry Sergeevich (https://github.com/godcodehunter)
 //
-// Dedicated to my teachers Plato and David Hilbert
+// Dedicated to my teachers Plato, Johann Wolfgang von Goethe, David Hilbert
 // 
 // We must know and we will know
 //
