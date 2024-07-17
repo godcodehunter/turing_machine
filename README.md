@@ -1,5 +1,5 @@
 # Description 
-The halt problem asserts that we cannot prove that the program stops or run forever. That's why we do it simultaneously. But as a result, the points will be in superposition in meaning that's any of each can be halt point or start loop point.
+The halt problem asserts that we cannot prove that the program stops or run forever. That's why we do it simultaneously. We modify machine as replacing two ribs "START" and "HALT" for one, as now Turing machine loop forever by construction.
 
 We need three conditions to be satisfied simultaneously:
 1. Transition from start transition point to end point has not yet happened (ORDER MATTER A -> B != B -> A)
