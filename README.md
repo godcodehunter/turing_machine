@@ -1,4 +1,4 @@
-# Description 
+7# Description 
 The halt problem asserts that we cannot prove that the program stops or run forever. That's why we do it simultaneously. We modify machine as replacing two ribs "START" and "HALT" for one, as now Turing machine loop forever by construction.
 
 We need three conditions to be satisfied simultaneously:
@@ -42,6 +42,3 @@ In real code, instruction have semantic also, if we found the minimum. My hypoth
 1. So where "halt point"? Halt point every where (depends of watcher), and start of loop after placed after it.
 2. I find the halt point and the start point of the loop at the same time, in fact I find two equivalent programs at once, one that halt and the other run infinity.
 3. After resolving all superpositions, code that is not reachable (traversed zero times) is completely unreachable
-
-# Special thanks my friends
-Vyacheslav Goma, Hirrolot, Dmitry Ylin
