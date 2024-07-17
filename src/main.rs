@@ -104,6 +104,7 @@ impl TMachine {
 
 fn main() {
     let s = vec![
+        // A
         TState {
             if_zero: Transition {
                 write: true,
@@ -116,6 +117,7 @@ fn main() {
                 new_state: Some(2),
             },
         },
+        // B
         TState {
             if_zero: Transition {
                 write: true,
@@ -128,6 +130,7 @@ fn main() {
                 new_state: Some(1),
             },
         },
+        // C
         TState {
             if_zero: Transition {
                 write: true,
