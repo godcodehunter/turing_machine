@@ -2,7 +2,7 @@
 The halt problem asserts that we cannot prove that the program stops or run forever. That's why we do it simultaneously. But as a result, the points will be in superposition in meaning that's any of each can be halt point or start loop point.
 
 We need three conditions to be satisfied simultaneously:
-1. Transition from start transition point to next point(end point) has not yet happened (ORDER MATTER A -> B != B -> A)
+1. Transition from start transition point to end point has not yet happened (ORDER MATTER A -> B != B -> A)
 2. Start transition point passed EXACTLY TWICE
 3. End transition point passed ONLY ONCE.
 
