@@ -1,7 +1,7 @@
 # Description 
 The halt problem asserts that we cannot prove that the program stops or run forever. That's why we do it simultaneously. But as a result, the points will be in superposition in meaning that's any of each can be halt point or start loop point.
 
-We need two conditions to be satisfied simultaneously:
+We need three conditions to be satisfied simultaneously:
 1. Find a point that we will go through exactly twice. 
 2. New transition that has not yet happened (point two unique)
 3. Transition point where we have been exactly twice to a point where we have been only once.
