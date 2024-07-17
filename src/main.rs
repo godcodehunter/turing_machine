@@ -1,3 +1,8 @@
+//-----BEGIN PUBLIC KEY-----
+//MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1LJuBHio8RGxFcRLpbstr9G2e9/qSzIUK0zrxc0JsJ10AIyTUoeZfRLhAPUqHCbDUI0A3OJOYAK4zWtc7QgEtOaIuvuq1Ejrt444u4oiIM7qMGItl3/YGMPgOq/gU014D159pmnQa3yEwGWQUJzLqTvp4RQDLf7gLRHd4lbo+I/B6nSUJhgPW6bubRWWzeJ1wKlpfH/xO93CXnNV/sguaSZPb81q/hFaP+TK1JD1O1VeKENb4pF6aI8l5GgjvdPpubQIS/yoNZPZRXwncB7L53iUYWYqIZ055yg90TGAwM3kpcYvRznwRdqPIp3PIghb0yoLD59EsFIKHDDWIsw6ZQIDAQAB
+//-----END PUBLIC KEY-----
+// PRO0F OF OWN
+// 030EIJxojB21ofOp7x00iyDb1VVVvcftvnWli9V29G3f9mHZyFbZ+0ZkXzmZmLWVcBRExd/kLrl2odcobElPpzPewOjjsKgzeej7Pv757xAPCFplhOL/VP1AzuoNQDK7YxenNdKJMsbZhJPQii7iEooCf8A9uwv/RBwezIYIbdqzGv3kRC+knvDQFgb+Ej+HJHHqZFxm2HD0sdEpO43Cm1GGFUU+FcD1p/BB4R8+4+b1HxbFg+8kGqd/O2bqtfO6dSdJ8dpwlAIvSBorZ7XQ3yJtLqocuCY0c37uLq+NnC0wYluOor4PrDdfukVd1MVoppoOmRgVeWjQVXrHZUT5iw==
 // Author of the program Opokin Dmitry Sergeevich (https://github.com/godcodehunter)
 //
 // Dedicated to my teachers Plato and David Hilbert
@@ -5,6 +10,8 @@
 // We must know and we will know
 //
 // Solving the Halt Problem
+//
+// Google dive: https://drive.google.com/file/d/1XYZbE6UaOocMdqBg4v_BNsnPw8rYv43L/view?usp=drive_link
 
 use std::{collections::{HashMap, HashSet}, iter::Map};
 
