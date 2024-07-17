@@ -1,3 +1,6 @@
+# Special thanks my friends
+Vyacheslav Goma, Hirrolot, Dmitry Ylin
+
 # Description 
 
 NOTE: yep points in superposition in meaning that's any of each can be halt or loop start
