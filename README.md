@@ -18,8 +18,8 @@ We need three conditions to be satisfied simultaneously:
 1. We can imagine any Turing machine as a Turing machine by observing a certain node if it is touched at least twice as stopping.
 2. If there is a cycle in a Turing machine, then there is a single transition in it (ORDER MATTER A -> B != B -> A)
 3. If you number the points, then after such a pass, then at the point where the cycle leads the vertex will have ONE. (we mark each node as we walk through it)
-4. Then there is always a loop in which the previous node has the value 2, the next one is 1 and, moreover, the only one and infinity.
-5. After passing, the second node will take the value 2, so we can imaginete it like second halt Turing machine.
+4. Then there is always a loop in which the previous point has the value TWO, the next one is ONE and, moreover, that loop only one and infinity.
+5. After passing, the second node will take the value TWO, so we can imaginete it like second halt Turing machine.
 
 # Example Busy beaver(3)
 
