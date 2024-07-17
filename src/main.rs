@@ -158,8 +158,8 @@ fn main() {
     // Start state / end state
     let mut transition = HashMap::<usize, HashSet<usize>>::new();
     
-    let mut start_of_loop: Option<usize> = None;
-    let mut halt_point: Option<usize> = None;
+    let mut super_position_two: Option<usize> = None;
+    let mut super_position_one: Option<usize> = None;
 
     let mut prev: usize = 0;
     let mut next: usize = 0;
@@ -186,16 +186,14 @@ fn main() {
         if number_of_occurrences[&prev] == 2 
         && number_of_occurrences[&next] == 1
         && transition[&prev].contains(&next) {
-            halt_point = Some(prev);
-            start_of_loop = Some(next);
+            super_position_one = Some(prev);
+            super_position_two = Some(next);
             break;
         }
 
         prev = next;
     }
 
-    dbg!(number_of_occurrences);
-    dbg!(transition);
-    print!("That's all folks! halt_point: {} start_of_loop: {}", halt_point.unwrap(), start_of_loop.unwrap())
+    print!("That's all folks! start_of_loop: {} halt_point: {}", super_position_one.unwrap(), super_position_two.unwrap())
 }
 
