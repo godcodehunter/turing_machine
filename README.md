@@ -5,10 +5,16 @@ We need two conditions to be satisfied simultaneously:
 1. Find a point that we will go through exactly twice. 
 2. And a new transition that has not yet happened (from a point where we have been exactly twice to a point where we have been only once).
 
-# Example
+# Example Busy beaver(3)
 
-My example is a function of Busy beaver(3). 
+Default formulation of the problem 
+![](./BB3.png "Default implementation 3-state busy beaver")
+
 To resolve it superposition, i assume that program run infinity from point "A". 
+
+Updated formulation of the problem
+![](./BB3U.png "Updated implementation 3-state busy beaver")
+
 So i say tha's start point of the loop is "A". 
 End the halt point is "C".
 
