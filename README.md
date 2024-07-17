@@ -1,5 +1,4 @@
 # Description 
-
 The halt problem asserts that we cannot prove that the program stops or run forever. That's why we do it simultaneously. But as a result, the points will be in superposition in meaning that's any of each can be halt point or start loop point.
 
 We need two conditions to be satisfied simultaneously:
