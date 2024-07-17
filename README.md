@@ -10,6 +10,6 @@ NOTE: I find the halt point and the start point of the loop at the same time, in
 
 My example is a function of Busy beaver(3). The start point of the loop is "A". The halt point is "C".
 
-NOTE: not, yep point in superposition in meaning that's any of each can be halt or loop start
+NOTE: yep point in superposition in meaning that's any of each can be halt or loop start
 
 NOTE: So what if we found the minimum halt point/start loop point? My hypothesis is that there is a method to come up with to see them all in order by time. Provided that we know at least one upperest breakpoint or loop point, then we resolve all points in the superpositions.
