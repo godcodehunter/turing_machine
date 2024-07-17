@@ -2,9 +2,13 @@
 The halt problem asserts that we cannot prove that the program stops or run forever. That's why we do it simultaneously. But as a result, the points will be in superposition in meaning that's any of each can be halt point or start loop point.
 
 We need three conditions to be satisfied simultaneously:
-1. Find a point that we will go through exactly twice (start transition point) 
-2. New transition that has not yet happened (ORDER MATTER A -> B != B -> A)
-3. Transition start point where we have been exactly twice transit to end point where we have been only once.
+1. Start transition point passed EXACTLY TWICE
+2. Exist transition from start transition point that has not yet happened (ORDER MATTER A -> B != B -> A)
+3. Transition start point transit to end point where we have been ONLY ONCE.
+
+'''
+
+'''
 
 # Proof
 1. We can imagine any Turing machine as a Turing machine by observing a certain node if it is touched at least twice as stopping.
