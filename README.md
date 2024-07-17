@@ -3,7 +3,7 @@ The halt problem asserts that we cannot prove that the program stops or run fore
 
 We need three conditions to be satisfied simultaneously:
 1. Find a point that we will go through exactly twice. 
-2. New transition that has not yet happened (point two unique)
+2. New transition that has not yet happened (ORDER MATTER A -> B != B -> A)
 3. Transition point where we have been exactly twice to a point where we have been only once.
 
 # Proof
