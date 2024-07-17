@@ -163,19 +163,19 @@ fn main() {
 
     let mut prev: usize = 0;
     let mut next: usize = 0;
-
+    
     prev = m.current_state;
     number_of_occurrences
             .entry(prev)
             .and_modify(|e| *e += 1)
             .or_insert(1);
-        
+
     loop { 
         m.step();
         next = m.current_state;
 
         number_of_occurrences
-            .entry(prev)
+            .entry(next)
             .and_modify(|e| *e += 1)
             .or_insert(1);
 
@@ -184,6 +184,7 @@ fn main() {
             .or_insert_with(HashSet::new).insert(next);
 
         if number_of_occurrences[&prev] == 2 
+        && number_of_occurrences[&next] == 1
         && transition[&prev].contains(&next) {
             halt_point = Some(prev);
             start_of_loop = Some(next);
@@ -193,6 +194,8 @@ fn main() {
         prev = next;
     }
 
+    dbg!(number_of_occurrences);
+    dbg!(transition);
     print!("That's all folks! halt_point: {} start_of_loop: {}", halt_point.unwrap(), start_of_loop.unwrap())
 }
 
