@@ -6,6 +6,8 @@ We need three conditions to be satisfied simultaneously:
 2. Exist transition from start transition point that has not yet happened (ORDER MATTER A -> B != B -> A)
 3. Transition start point transit to end point where we have been ONLY ONCE.
 
+# Condition 
+
         if number_of_occurrences[&prev] == 2 
         && number_of_occurrences[&next] == 1
         && transition[&prev].contains(&next) {
