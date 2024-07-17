@@ -6,11 +6,8 @@ The halt problem asserts that we cannot prove that the program stops or run fore
 
 So where "halt point"? Halt point every where (depends of watcher), and start of loop after it.
 
-NOTE: 
-I find the halt point and the start point of the loop at the same time, in fact I find two equivalent programs at once, one that halt and the other run infinity.
+NOTE: I find the halt point and the start point of the loop at the same time, in fact I find two equivalent programs at once, one that halt and the other run infinity.
 
-My example is a function of Busy beaver(3). The start point of the lopp is "A". The halt point is "C".
+My example is a function of Busy beaver(3). The start point of the loop is "A". The halt point is "C".
 
-NOTE:
-So what if we found the minimum halt point/start loop point?
-My hypothesis is that there is a method to come up with to see them all in order by time. Provided that we know at least one upperest breakpoint or loop point, then we resolve all points in the superpositions.
+NOTE: So what if we found the minimum halt point/start loop point? My hypothesis is that there is a method to come up with to see them all in order by time. Provided that we know at least one upperest breakpoint or loop point, then we resolve all points in the superpositions.
