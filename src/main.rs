@@ -12,6 +12,7 @@
 // Solving the Halt Problem
 //
 // Google dive: https://drive.google.com/file/d/1XYZbE6UaOocMdqBg4v_BNsnPw8rYv43L/view?usp=drive_link
+// IPFS: https://ipfs.io/ipfs/QmUvE6E3dPkRmNywpg6PSq1ZqNa9ppLLaS46H78mNETf92?filename=main.rs
 
 use std::{collections::{HashMap, HashSet}, iter::Map};
 
