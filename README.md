@@ -7,7 +7,10 @@ We need two conditions to be satisfied simultaneously:
 
 # Example
 
-My example is a function of Busy beaver(3). The start point of the loop is "A". The halt point is "C".
+My example is a function of Busy beaver(3). 
+To resolve it superposition, i assume that program run infinity from point "A". 
+So i say tha's start point of the loop is "A". 
+End the halt point is "C".
 
 # Unraveling Superpositions
 In real code, instruction have semantic also, if we found the minimum. My hypothesis is that there is a method to come up with to see them all in order by time. Provided that we know at least one most upperest halt point or run loop point (for usual programm it is just main function's that's we expect halt), then we resolve all points in the superpositions.
