@@ -8,7 +8,7 @@ We need three conditions to be satisfied simultaneously:
 
 # Proof
 1. We can imagine any Turing machine as a Turing machine by observing a certain node if it is touched at least twice as stopping.
-2. If there is a cycle in a Turing machine, then there is a single transition in it (from DIFFERENT POINT/DIFFERENT LETTERS)
+2. If there is a cycle in a Turing machine, then there is a single transition in it (ORDER MATTER A -> B != B -> A)
 3. If you number the points, then after such a pass, then at the point where the cycle leads the vertex will have ONE. (we mark each node as we walk through it)
 4. Then there is always a cycle in which the previous node has the value 2, the next one is 1 and, moreover, the only one
 
