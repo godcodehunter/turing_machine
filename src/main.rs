@@ -1,19 +1,3 @@
-// -----BEGIN PUBLIC KEY-----
-// MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw7hQL4amu9GbMqrCgKef23uGxysYPR149WlB5txgT0sz+M6tT2Lo1vlpZWGObFFa+Cr4rJh8T7r6uaFwbIIoo7wMwGvfzVbbh3se342Dax7O0dtjzkHl2PCFzoyZiUI8I52B1aabW40zzi0PXOpxi5xKCz6S3U1KAea/X92vQr8Pu9JXnk6bcf9OLJrmbHyHW7SKQvQZ6OuQ8QP2KvzGZOL+LfIgysExAT+wcubKfTfrbB4MkpJ2ZypRv0mfhqtZiMEgnYE4Yej12em4BQ7m1wROA2fg3pc+yuKLy9/zhgsxAz9/3rXItacRA8xXIubAxkY15cwd+B1Fs3kh+cnVRQIDAQAB
-// -----END PUBLIC KEY-----
-// PRO0F OF OWN
-// gdud2Z4Id5R9oq/C/mvqENBTLuZyRNIWl11UQwYkc8XGUGE8FBL75f46g1MwWT1Do+F7Y1/JD6j9bD8evr57ahWHzwW0nr6gigtm3BWKfLLTQ0Zzst8UYUnClNG5dJJjW7FKbMz1h+VTrcaKASD39pFi/jYXZiUgHOHewXFxAajPqQnvRDg3OTQ2nVZcFCGaxve6KO4PUEip6TFrhx9xKCIz7y5XSeS3A7MBiZpewMY6mQcGO9f/GQmNUNrAPUiwwHfCsnwmdbEfuKinOIwcX+sGtEkOHYCsCDUZdxKo69vkE+W8UzkSV6K5D94lL4XXOAuteJvunOa2oCDXwLcmAQ==
-// Author of the program Opokin Dmitry Sergeevich (https://github.com/godcodehunter)
-//
-// Dedicated to my teachers Plato, Johann Wolfgang von Goethe, David Hilbert
-// 
-// We must know and we will know
-//
-// Solving the Halt Problem
-//
-// Google dive: https://drive.google.com/file/d/1XYZbE6UaOocMdqBg4v_BNsnPw8rYv43L/view?usp=drive_link
-// IPFS: https://ipfs.io/ipfs/QmUvE6E3dPkRmNywpg6PSq1ZqNa9ppLLaS46H78mNETf92?filename=main.rs
-
 use std::{collections::{HashMap, HashSet}, iter::Map};
 
 pub enum MoveDirection {
