@@ -1,4 +1,4 @@
-7# Description 
+# Description 
 The halt problem asserts that we cannot prove that the program stops or run forever. That's why we do it simultaneously. We modify machine as replacing two ribs "START" and "HALT" for one, as now Turing machine loop forever by construction.
 
 We need three conditions to be satisfied simultaneously:
