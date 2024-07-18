@@ -22,4 +22,6 @@ In any infinite Turing machine, there is a transition such that, and, moreover, 
             break;
         }
 
-Let's assume that the expected point is located at the point at the start of the transition, if the point is not there, the machine will not stop by design. If the point is there, the Turing machine stops.
+Let's assume that the expected halt point is located at the point at the start of the transition, if the point is not there, the machine will not stop by construction. If the point is there, the Turing machine stops.
+
+In essence, we are considering two properties of two machines that stopped and did not stop, but are equivalent. Therefore, when parsing, we can safely say that the machine will not stop, because if it stopped at this point, then in an equivalent Turing machine the cycle would begin from there
